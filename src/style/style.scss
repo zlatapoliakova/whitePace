@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", serif;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    border-radius: 8px;
+    gap: 10px;
+    background: #4F9CF9;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    border: none;
+}
+
+.body-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.colored {
+    color: #043873;
+    margin-right: 24px;
+    background: #FFE492;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.nav > .right {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header {
+    display: flex;
+    background: #043873 url('../img/header/bg.svg') center 70% no-repeat;
+    &__logo {
+        display: flex;
+        gap: 10px;
+        &__txt {
+            color: #FFF;
+            font-size: 28px;
+            font-weight: 700;
+        }
+    }
+    &__links {
+        display: flex;
+        gap: 32px;
+        &__link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 23px;
+            list-style: none;
+        }
+    }
+}
+
+.btns {
+    display: flex;
+    gap: 24px;
+}
+
+.promo {
+    display: flex;
+    align-items: center;
+    padding: 140px 0;
+    &__first {
+        max-width: 840px;
+        &__title {
+            color: #FFF;
+            font-size: 64px;
+            font-weight: 700;
+        }
+    } 
+    &__img {
+        display: block;
+    }
+}
+
+.promo__first > .body-text {
+    color: #fff;
+    margin-top: 24px;
+}
+
+.promo__first > .btn {
+    margin-top: 60px;
+}
